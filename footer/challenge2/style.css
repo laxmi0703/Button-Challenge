@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Rubik&display=swap');
+/* 
+* {
+  margin-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.content {
+  background-color: rgb(12, 26, 105);
+  color: white;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin-top: 27%;
+}
+
+
+.logo-details {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 20%;
+}
+
+.media-icons {
+  position: absolute;
+  right: 4%;
+  width: 100px;
+  height: 120px;
+} 
+
+.link-boxes {
+  display: flex;
+}
+
+.box {
+  margin-top: 20%;
+  padding: 0px 30px 0px;
+  list-style-type: none;
+}
+.link_name {
+  color: rgb(252, 252, 252);
+  font-size: 20px;
+  font-weight: 800;
+}
+li > a {
+  color: white;
+}
+
+.bottom-details {
+  background-color: rgb(3, 3, 56);
+  color: white;
+  height: 50px;
+}
+
+
+.copyright_text {
+  display: flex;
+}
+
+.policy_terms {
+  display: flex;
+  justify-content: end;
+}
+
+.policy_terms > a {
+  color: white;
+  margin-right: 40px;
+}  */
+
+/* 
+.top{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+    
+
+
+.content{
+    margin-top: 38%;
+    background-color: rgb(17, 17, 171);
+    color:rgb(243, 235, 235);
+    height: 350px;
+}
+
+
+
+.box{
+    color:white;
+    list-style-type: none;
+    padding:0px 40px;
+    margin-top: 60px;
+ 
+}
+
+
+.link-boxes{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    
+  }
+
+.link_name{
+    color:white;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.bottom-details{
+    background-color: rgb(6, 6, 69);
+    height:60px;
+    color:white;
+}
+
+.copyright_text{
+    display: flex;
+    justify-content:center;
+    
+}
+.policy_terms{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+} */
+
+*{
+    font-family: 'Roboto Slab', serif
+}
+
+:root {
+    --top-blue:#140b5c;
+    --bottom-blue:  #0f0844;
+    --white: #ffffff;
+    --button-bg-color: #d0cedf;
+    --footer-text-color: #d0cedf
+}
+
+
+
+footer {
+    background-color: var(--top-blue);
+    color: var(--button-bg-color);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    border-bottom: 1px solid var(--white);
+}
+
+.logo-details {
+    margin-left: 32px;
+    font-size: 2rem;
+}
+
+
+
+.media-icons > a {
+    padding-left: 10px; 
+    color: white   
+}
+
+.media-icons .fab {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 37px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0px 6px;
+}
+
+.fa-facebook-f {
+    background-color: #4267B2;
+}
+
+.fa-twitter {
+    background-color: #1EA1F1;
+}
+
+.fa-instagram {
+    background-color: #E12F6D;
+}
+
+.fa-linkedin-in {
+    background-color: #0277B5;
+}
+
+.fa-youtube {
+    background-color: #FF0000;
+}
+
+.link-boxes {
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1rem;
+    color: var(--footer-text-color)
+}
+
+
+ul > li > a {
+   padding: 10px 0px;
+   list-style-type: none;
+   text-decoration: none;
+   color: var(--footer-text-color);
+   
+}
+
+.link_name {
+    list-style-type: none;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffffff;
+    width: 45px;
+}
+
+.bottom-details{
+    background-color: var(--bottom-blue);
+    padding: 1% 9%;
+} 
+
+.bottom_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright_text > a{
+    color: var(--footer-text-color);
+    text-decoration: none;
+    padding: 0px 5px 0px 0px;
+}
+
+.policy_terms > a {
+    color: var(--footer-text-color);
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--white);
+    opacity: 1; /* Firefox */
+    background-color: var(--top-blue);
+}
+
+li > input[type="text"] {
+    padding: 10px;
+    background: var(--top-blue);
+    border: 2px solid var(--white);
+    font-size: 1rem;
+}
+
+li > input[type="button"] {
+    margin: 0px;
+    color: var(--top-blue);
+    width: 100%;
+    background-color: var(--button-bg-color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
